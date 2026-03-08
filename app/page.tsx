@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 import agents from '../data/agents.json'
 
 type Agent = typeof agents[0]
@@ -101,6 +102,14 @@ export default function Home() {
         <div style={{ marginTop: 8, fontSize: 5, color: '#333' }}>
           {'> '}<span className="blink" style={{ color: '#00ff88' }}>_</span>
         </div>
+        <Link href="/office" style={{
+          display: 'inline-block', marginTop: 16, fontSize: 7,
+          color: '#00aaff', textDecoration: 'none', border: '2px solid #00aaff44',
+          padding: '8px 20px', fontFamily: '"Press Start 2P", monospace',
+          transition: 'all 0.1s',
+        }}>
+          🏢 ОФИС
+        </Link>
       </div>
 
       {/* Office grid */}
