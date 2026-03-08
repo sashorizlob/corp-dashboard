@@ -1,0 +1,52 @@
+[
+  {
+    "id": "kent",
+    "name": "Кент",
+    "role": "COO / Project Manager",
+    "department": "headquarters",
+    "status": "active",
+    "lastTask": "Инициализация корпорации",
+    "emoji": "🤝",
+    "color": "#00ff88"
+  },
+  {
+    "id": "secretary",
+    "name": "Секретарь",
+    "role": "Executive Assistant",
+    "department": "reception",
+    "status": "active",
+    "lastTask": "Ожидание задач",
+    "emoji": "📋",
+    "color": "#00aaff"
+  },
+  {
+    "id": "analyst",
+    "name": "Аналитик",
+    "role": "Data Analyst",
+    "department": "analytics",
+    "status": "offline",
+    "lastTask": "—",
+    "emoji": "📊",
+    "color": "#ff00aa"
+  },
+  {
+    "id": "work1",
+    "name": "Сотрудник",
+    "role": "Рабочий отдел",
+    "department": "work",
+    "status": "offline",
+    "lastTask": "Вакансия",
+    "emoji": "🔧",
+    "color": "#ffaa00"
+  },
+  {
+    "id": "personal1",
+    "name": "Личный ИИ",
+    "role": "Personal Assistant",
+    "department": "personal",
+    "status": "offline",
+    "lastTask": "Вакансия",
+    "emoji": "🧬",
+    "color": "#aa00ff"
+  }
+]

@@ -1,26 +1,160 @@
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0d0d1a;
+  color: #e0e0e0;
+  font-family: 'Press Start 2P', monospace;
+  overflow-x: hidden;
+}
+
+/* Scanlines effect */
+body::after {
+  content: '';
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0,0,0,0.08) 2px,
+    rgba(0,0,0,0.08) 4px
+  );
+  pointer-events: none;
+  z-index: 9999;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@keyframes glow-green {
+  0%, 100% { box-shadow: 0 0 8px #00ff88, 0 0 16px #00ff8844; }
+  50% { box-shadow: 0 0 16px #00ff88, 0 0 32px #00ff8888; }
+}
+
+@keyframes glow-blue {
+  0%, 100% { box-shadow: 0 0 8px #00aaff, 0 0 16px #00aaff44; }
+  50% { box-shadow: 0 0 16px #00aaff, 0 0 32px #00aaff88; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-4px); }
+}
+
+@keyframes pulse-border {
+  0%, 100% { border-color: rgba(0,255,136,0.3); }
+  50% { border-color: rgba(0,255,136,0.8); }
+}
+
+.blink { animation: blink 1s step-end infinite; }
+.glow-green { animation: glow-green 2s ease-in-out infinite; }
+.glow-blue { animation: glow-blue 2s ease-in-out infinite; }
+.float { animation: float 3s ease-in-out infinite; }
+.pulse-border { animation: pulse-border 2s ease-in-out infinite; }
+
+/* Pixel character */
+.pixel-char {
+  image-rendering: pixelated;
+  display: inline-block;
+}
+
+/* Department zones */
+.dept-zone {
+  border: 2px solid;
+  border-radius: 0;
+  position: relative;
+  padding: 20px 16px 16px;
+  image-rendering: pixelated;
+}
+
+.dept-label {
+  position: absolute;
+  top: -12px;
+  left: 12px;
+  background: #0d0d1a;
+  padding: 2px 8px;
+  font-size: 8px;
+  letter-spacing: 1px;
+}
+
+/* Agent card */
+.agent-card {
+  background: #0a0a18;
+  border: 2px solid rgba(255,255,255,0.1);
+  cursor: pointer;
+  transition: all 0.1s;
+  position: relative;
+  padding: 12px;
+}
+
+.agent-card:hover {
+  border-color: rgba(0,255,136,0.6);
+  background: #0f0f22;
+  transform: translateY(-2px);
+}
+
+.agent-card.active {
+  border-color: #00ff88;
+}
+
+.agent-card.busy {
+  border-color: #ffaa00;
+}
+
+.agent-card.offline {
+  border-color: rgba(255,255,255,0.1);
+  opacity: 0.6;
+}
+
+/* Status dot */
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 0;
+  display: inline-block;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  backdrop-filter: blur(4px);
+}
+
+.modal-box {
+  background: #0d0d1a;
+  border: 2px solid #00ff88;
+  padding: 32px;
+  max-width: 480px;
+  width: 90%;
+  box-shadow: 0 0 40px rgba(0,255,136,0.3);
+  position: relative;
+}
+
+/* Pixel desk SVG-style using CSS */
+.pixel-desk {
+  width: 48px;
+  height: 32px;
+  background:
+    linear-gradient(#8B6914 0 8px, transparent 8px),
+    linear-gradient(90deg, #8B6914 0 4px, transparent 4px, transparent 44px, #8B6914 44px);
+  background-color: #6B4F10;
+  image-rendering: pixelated;
+  margin: 0 auto 8px;
 }
