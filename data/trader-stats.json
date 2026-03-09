@@ -4,7 +4,7 @@
   "bets_total": 61,
   "bets_won": 14,
   "bets_lost": 16,
-  "bets_pending": 3,
+  "bets_pending": 2,
   "last_bet": {
     "time": "16:01",
     "side": "Down",
@@ -16,5 +16,5 @@
     "side": "Up",
     "amount": 15.384599999999999
   },
-  "updated_at": "2026-03-09T09:01:09Z"
+  "updated_at": "2026-03-09T09:04:07Z"
 }
