@@ -1,5 +1,5 @@
 {
-  "balance": 22.4674,
+  "balance": 37.5609,
   "pnl": -26.6617,
   "bets_total": 30,
   "bets_won": 4,
@@ -16,5 +16,5 @@
     "side": "Down",
     "amount": 13.434000000000001
   },
-  "updated_at": "2026-03-09T06:31:13Z"
+  "updated_at": "2026-03-09T06:33:29Z"
 }
