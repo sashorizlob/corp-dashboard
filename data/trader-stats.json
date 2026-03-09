@@ -1,23 +1,23 @@
 {
   "oleg": {
-    "balance": 5.8991,
+    "balance": 0.8991,
     "pnl": -74.6632,
     "bets_total": 134,
     "bets_won": 27,
     "bets_lost": 37,
-    "bets_pending": 0,
+    "bets_pending": 1,
     "last_bet": {
-      "time": "01:12",
-      "side": "Up",
+      "time": "01:16",
+      "side": "Down",
       "amount": 5.0,
-      "status": "failed"
+      "status": "pending"
     },
     "last_win": {
       "time": "00:36",
       "side": "Down",
       "amount": 9.615400000000001
     },
-    "updated_at": "2026-03-09T18:12:28Z"
+    "updated_at": "2026-03-09T18:16:10Z"
   },
   "anna": {
     "balance": 19.92,
