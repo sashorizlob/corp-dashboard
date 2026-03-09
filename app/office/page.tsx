@@ -26,7 +26,9 @@ const agentPositions: Record<string, { x: number; y: number; room: string }> = {
   secretary: { x: 180, y: 130, room: 'reception' },
   kent:      { x: 680, y: 130, room: 'headquarters' },
   work1:     { x: 180, y: 340, room: 'work' },
-  analyst:   { x: 680, y: 340, room: 'analytics' },
+  oleg:      { x: 580, y: 300, room: 'analytics' },
+  anna:      { x: 760, y: 300, room: 'analytics' },
+  analyst:   { x: 670, y: 360, room: 'analytics' },
   personal1: { x: 450, y: 560, room: 'personal' },
 }
 
@@ -34,6 +36,20 @@ export default function OfficePage() {
   const canvasRef = useRef<HTMLDivElement>(null)
   const gameRef = useRef<any>(null)
   const [selectedAgent, setSelectedAgent] = useState<Agent | null>(null)
+  const [traderStats, setTraderStats] = useState<any>(null)
+
+  useEffect(() => {
+    const load = async () => {
+      try {
+        const r = await fetch('/api/trader')
+        const d = await r.json()
+        setTraderStats(d)
+      } catch {}
+    }
+    load()
+    const t = setInterval(load, 30000)
+    return () => clearInterval(t)
+  }, [])
 
   useEffect(() => {
     if (!canvasRef.current || gameRef.current) return
@@ -671,6 +687,31 @@ export default function OfficePage() {
                 <span style={{ fontSize: 6, color: '#aaa', fontFamily: '"Press Start 2P", monospace' }}>{selectedAgent.lastTask}</span>
               </div>
             </div>
+            {(selectedAgent.id === 'oleg' || selectedAgent.id === 'anna') && traderStats?.[selectedAgent.id] && (() => {
+              const s = traderStats[selectedAgent.id]
+              const wr = s.bets_total > 0 ? Math.round(s.bets_won / s.bets_total * 100) : 0
+              return (
+                <div style={{ marginTop: 14, borderTop: '1px solid #1a1a2e', paddingTop: 14 }}>
+                  <div style={{ fontSize: 6, color: selectedAgent.color, fontFamily: '"Press Start 2P", monospace', marginBottom: 10, textAlign: 'center' }}>— KPI —</div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8 }}>
+                    <span style={{ fontSize: 6, color: '#555', fontFamily: '"Press Start 2P", monospace' }}>БАЛАНС</span>
+                    <span style={{ fontSize: 6, color: '#00ff88', fontFamily: '"Press Start 2P", monospace' }}>${s.balance?.toFixed(2)}</span>
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8 }}>
+                    <span style={{ fontSize: 6, color: '#555', fontFamily: '"Press Start 2P", monospace' }}>PnL</span>
+                    <span style={{ fontSize: 6, color: s.pnl >= 0 ? '#00ff88' : '#ff4444', fontFamily: '"Press Start 2P", monospace' }}>{s.pnl >= 0 ? '+' : ''}{s.pnl?.toFixed(2)}$</span>
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8 }}>
+                    <span style={{ fontSize: 6, color: '#555', fontFamily: '"Press Start 2P", monospace' }}>СДЕЛКИ</span>
+                    <span style={{ fontSize: 6, color: '#ddd', fontFamily: '"Press Start 2P", monospace' }}>{s.bets_won}W / {s.bets_lost}L</span>
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                    <span style={{ fontSize: 6, color: '#555', fontFamily: '"Press Start 2P", monospace' }}>WIN RATE</span>
+                    <span style={{ fontSize: 6, color: wr >= 55 ? '#00ff88' : wr >= 45 ? '#ffaa00' : '#ff4444', fontFamily: '"Press Start 2P", monospace' }}>{wr}%</span>
+                  </div>
+                </div>
+              )
+            })()}
             <div style={{ marginTop: 16, fontSize: 5, color: '#282828', textAlign: 'center', fontFamily: '"Press Start 2P", monospace' }}>
               [НАЖМИ ВНЕ ОКНА ЧТОБЫ ЗАКРЫТЬ]
             </div>

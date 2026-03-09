@@ -20,14 +20,24 @@
     "color": "#00aaff"
   },
   {
-    "id": "poly-trader",
-    "name": "Трейдер",
-    "role": "Polymarket BTC Bot",
+    "id": "oleg",
+    "name": "Олег",
+    "role": "Momentum Trader",
     "department": "analytics",
     "status": "active",
-    "lastTask": "BTC 5m Up/Down — мониторинг",
+    "lastTask": "BTC 5m — momentum стратегия",
     "emoji": "📈",
     "color": "#ff6600"
+  },
+  {
+    "id": "anna",
+    "name": "Анна",
+    "role": "Arbitrage Trader",
+    "department": "analytics",
+    "status": "active",
+    "lastTask": "BTC 5m — арбитраж Up+Down",
+    "emoji": "⚖️",
+    "color": "#ff00cc"
   },
   {
     "id": "analyst",
