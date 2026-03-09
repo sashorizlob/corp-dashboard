@@ -1,14 +1,14 @@
 {
-  "balance": 20.0389,
+  "balance": 14.0289,
   "pnl": -2.0,
-  "bets_total": 13,
+  "bets_total": 14,
   "bets_won": 1,
   "bets_lost": 1,
-  "bets_pending": 11,
+  "bets_pending": 12,
   "last_bet": {
-    "time": "09:56",
+    "time": "10:01",
     "side": "Up",
-    "amount": 5.0,
+    "amount": 6.01,
     "status": "pending"
   },
   "last_win": {
@@ -16,5 +16,5 @@
     "side": "Down",
     "amount": 1.86
   },
-  "updated_at": "2026-03-09T02:58:31Z"
+  "updated_at": "2026-03-09T03:01:10Z"
 }
