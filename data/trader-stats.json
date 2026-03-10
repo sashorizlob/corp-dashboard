@@ -7,7 +7,7 @@
     "bets_lost": 47,
     "bets_pending": 1,
     "last_bet": {
-      "time": "18:27",
+      "time": "18:31",
       "side": "Down",
       "amount": 5.0,
       "status": "pending"
@@ -17,7 +17,7 @@
       "side": "Up",
       "amount": 9.434000000000001
     },
-    "updated_at": "2026-03-10T11:27:54Z"
+    "updated_at": "2026-03-10T11:31:49Z"
   },
   "anna": {
     "balance": 24.74,
@@ -105,7 +105,7 @@
       "side": "Down",
       "amount": 4.2593
     },
-    "strategy": "ws-lag BN\u22650.12% MAX_ASK=0.75",
+    "strategy": "ws-lag BN≥0.12% MAX_ASK=0.75",
     "updated_at": "2026-03-10T11:27:29.737594Z",
     "recent": [
       {
