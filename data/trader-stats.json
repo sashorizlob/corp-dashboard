@@ -20,11 +20,11 @@
     "updated_at": "2026-03-10T09:27:36Z"
   },
   "anna": {
-    "balance": 26.95,
+    "balance": 37.88,
     "bets_total": 30,
-    "win_rate": 63,
-    "pnl": -45.43,
-    "last_update": "2026-03-10T09:20:43.362898Z",
+    "win_rate": 67,
+    "pnl": -7.92,
+    "last_update": "2026-03-10T09:28:12.809961Z",
     "strategy": "smart-maker",
     "recent": [
       {
@@ -36,8 +36,8 @@
         "dn_shares": 16.32,
         "cost": 15.9962,
         "expected_pnl": 1.0238,
-        "outcome": "arb",
-        "pnl": 0
+        "outcome": "win",
+        "pnl": 18.9279
       },
       {
         "date": "2026-03-10T09:10:55.015432Z",
@@ -48,8 +48,8 @@
         "dn_shares": 18.583678,
         "cost": 17.1028,
         "expected_pnl": 1.4809,
-        "outcome": "loss",
-        "pnl": -17.1028
+        "outcome": "win",
+        "pnl": 1.4809
       },
       {
         "date": "2026-03-10T09:05:20.264990Z",
@@ -81,7 +81,7 @@
       "bn_pct": -0.129
     },
     "last_win": null,
-    "strategy": "ws-lag BN≥0.12% MAX_ASK=0.75",
+    "strategy": "ws-lag BN\u22650.12% MAX_ASK=0.75",
     "updated_at": "2026-03-10T09:25:23.471810Z",
     "recent": [
       {
