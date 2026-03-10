@@ -5,7 +5,7 @@
     "bets_total": 147,
     "bets_won": 29,
     "bets_lost": 39,
-    "bets_pending": 3,
+    "bets_pending": 2,
     "last_bet": {
       "time": "15:56",
       "side": "Up",
@@ -17,7 +17,7 @@
       "side": "Down",
       "amount": 15.0943
     },
-    "updated_at": "2026-03-10T08:56:06Z"
+    "updated_at": "2026-03-10T08:56:43Z"
   },
   "anna": {
     "balance": 25.71,
