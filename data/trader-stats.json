@@ -20,13 +20,13 @@
     "updated_at": "2026-03-10T11:47:14Z"
   },
   "anna": {
-    "balance": 21.84,
-    "pnl": 90.72,
+    "balance": 21.95,
+    "pnl": 95.82,
     "bets_total": 38,
-    "bets_won": 70,
+    "bets_won": 71,
     "bets_lost": 32,
     "win_rate": 69,
-    "last_update": "2026-03-10T17:01:54.183451Z",
+    "last_update": "2026-03-10T17:03:11.474474Z",
     "strategy": "smart-maker @0.49",
     "recent": [
       {
@@ -41,8 +41,8 @@
       {
         "side": "arb_both",
         "amount": 4.998,
-        "outcome": "arb",
-        "pnl": 0.0,
+        "outcome": "win",
+        "pnl": 0.102,
         "date": "2026-03-10T16:55:33.128922Z",
         "btc_pct": 0.0,
         "secs_left": "?"
