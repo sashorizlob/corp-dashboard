@@ -21,12 +21,36 @@
   },
   "anna": {
     "balance": 12.71,
-    "bets_total": 8,
-    "win_rate": 38,
+    "bets_total": 10,
+    "win_rate": 40,
     "pnl": 23.34,
-    "last_update": "2026-03-10T07:28:06.581900Z",
+    "last_update": "2026-03-10T07:31:01.034302Z",
     "strategy": "smart-maker",
     "recent": [
+      {
+        "date": "2026-03-10T07:31:01.033171Z",
+        "cid": "0x42b91dcbc8c3c23abef3a34d8354bfc278c874d9c7efb6f2471164ec0069c57b",
+        "slug": "btc-updown-5m-1773127800",
+        "type": "arb_both",
+        "up_shares": 11.35714,
+        "dn_shares": 10.2,
+        "cost": 10.563,
+        "expected_pnl": 0.7941,
+        "outcome": "arb",
+        "pnl": 0
+      },
+      {
+        "date": "2026-03-10T07:29:08.720137Z",
+        "cid": "0x82f440d7d80680ef3e462fee2549d23e36f91c649f033b552bb4e0fb1fa93cce",
+        "slug": "btc-updown-5m-1773127500",
+        "type": "single_up",
+        "shares": 11.359817,
+        "cost": 5.5663,
+        "btc_pct": -0.2512,
+        "confirmed": false,
+        "outcome": "partial",
+        "pnl": 0
+      },
       {
         "date": "2026-03-10T07:24:09.752707Z",
         "cid": "0x1807107cc9bb9ea320de566ca1ca14e65b365919fd20543251b4d17c9f9be87e",
@@ -38,30 +62,6 @@
         "confirmed": true,
         "outcome": "win",
         "pnl": 5.3266
-      },
-      {
-        "date": "2026-03-10T07:19:05.327507Z",
-        "cid": "0x9e8d6927133cfd217ceeba95d2f64f72d8457bb4f3c314cfe9c2e401126a6ee1",
-        "slug": "btc-updown-5m-1773126900",
-        "type": "single_down",
-        "shares": 10.82,
-        "cost": 5.3018,
-        "btc_pct": 0.1325,
-        "confirmed": false,
-        "outcome": "loss",
-        "pnl": -4.998
-      },
-      {
-        "date": "2026-03-10T07:05:27.470502Z",
-        "cid": "0x72d3bf0861588902faab873938212a46f6efc2d63a83f754db5d1ce5fbf5b3db",
-        "slug": "btc-updown-5m-1773126300",
-        "type": "arb_both",
-        "up_shares": 10.69,
-        "dn_shares": 10.69,
-        "cost": 10.4762,
-        "expected_pnl": 0.2138,
-        "outcome": "win",
-        "pnl": 10.69
       }
     ]
   }
