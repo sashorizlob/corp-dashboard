@@ -20,13 +20,25 @@
     "updated_at": "2026-03-10T07:45:22Z"
   },
   "anna": {
-    "balance": 28.16,
-    "bets_total": 11,
-    "win_rate": 45,
-    "pnl": 38.78,
-    "last_update": "2026-03-10T07:43:12.400942Z",
+    "balance": 35.03,
+    "bets_total": 12,
+    "win_rate": 50,
+    "pnl": 45.65,
+    "last_update": "2026-03-10T07:48:06.691124Z",
     "strategy": "smart-maker",
     "recent": [
+      {
+        "date": "2026-03-10T07:44:04.049197Z",
+        "cid": "0xf51e0b22615fc3a82f3c287f210f634db894084a430c55e114b8d361ea34d430",
+        "slug": "btc-updown-5m-1773128400",
+        "type": "single_down",
+        "shares": 14.93576,
+        "cost": 7.3185,
+        "btc_pct": 0.0154,
+        "confirmed": false,
+        "outcome": "win",
+        "pnl": 6.8708
+      },
       {
         "date": "2026-03-10T07:35:46.219986Z",
         "cid": "0x53ad59d42bf210299fbab43e8633e024b9206558c35d28841786d58e7b441608",
@@ -50,18 +62,6 @@
         "expected_pnl": 0.7941,
         "outcome": "loss",
         "pnl": -2.2216
-      },
-      {
-        "date": "2026-03-10T07:29:08.720137Z",
-        "cid": "0x82f440d7d80680ef3e462fee2549d23e36f91c649f033b552bb4e0fb1fa93cce",
-        "slug": "btc-updown-5m-1773127500",
-        "type": "single_up",
-        "shares": 11.359817,
-        "cost": 5.5663,
-        "btc_pct": -0.2512,
-        "confirmed": false,
-        "outcome": "win",
-        "pnl": 9.9289
       }
     ]
   }
