@@ -1,23 +1,59 @@
 {
   "oleg": {
-    "balance": 43.5104,
-    "pnl": -76.1032,
-    "bets_total": 142,
-    "bets_won": 29,
-    "bets_lost": 39,
+    "balance": 43.51,
+    "pnl": 0.0,
+    "bets_total": 0,
+    "bets_won": 0,
+    "bets_lost": 0,
     "bets_pending": 0,
+    "win_rate": 0,
     "last_bet": {
-      "time": "14:39",
-      "side": "Down",
+      "time": "2026-03-10 14:50",
+      "side": "Up",
       "amount": 8.0,
-      "status": "win"
+      "status": "failed",
+      "bn_pct": 0.1802
     },
-    "last_win": {
-      "time": "14:39",
-      "side": "Down",
-      "amount": 15.0943
-    },
-    "updated_at": "2026-03-10T07:45:22Z"
+    "last_win": null,
+    "strategy": "ws-lag BN\u22650.12% MAX_ASK=0.75",
+    "updated_at": "2026-03-10T07:50:58.460536Z",
+    "recent": [
+      {
+        "time": "2026-03-10 14:50",
+        "side": "Up",
+        "amount": 8.0,
+        "status": "failed",
+        "bn_pct": 0.1802
+      },
+      {
+        "time": "2026-03-10 14:17",
+        "side": "Up",
+        "amount": 8.0,
+        "status": "failed",
+        "bn_pct": 0.1736
+      },
+      {
+        "time": "2026-03-10 14:17",
+        "side": "Up",
+        "amount": 8.0,
+        "status": "failed",
+        "bn_pct": 0.1802
+      },
+      {
+        "time": "2026-03-10 14:17",
+        "side": "Up",
+        "amount": 8.0,
+        "status": "failed",
+        "bn_pct": 0.1711
+      },
+      {
+        "time": "2026-03-10 14:17",
+        "side": "Up",
+        "amount": 8.0,
+        "status": "failed",
+        "bn_pct": 0.1623
+      }
+    ]
   },
   "anna": {
     "balance": 35.03,
