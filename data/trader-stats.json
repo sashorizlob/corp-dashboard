@@ -114,12 +114,19 @@
       "side": "Up",
       "amount": 5.0,
       "status": "failed",
-      "bn_pct": 0.2173
+      "bn_pct": 0.2147
     },
     "last_win": null,
     "strategy": "ws-lag BN\u22650.12% MAX_ASK=0.75",
-    "updated_at": "2026-03-10T08:05:35.183329Z",
+    "updated_at": "2026-03-10T08:05:37.543882Z",
     "recent": [
+      {
+        "time": "2026-03-10 15:05",
+        "side": "Up",
+        "amount": 5.0,
+        "status": "failed",
+        "bn_pct": 0.2147
+      },
       {
         "time": "2026-03-10 15:05",
         "side": "Up",
