@@ -28,6 +28,7 @@ const agentPositions: Record<string, { x: number; y: number; room: string }> = {
   work1:     { x: 180, y: 340, room: 'work' },
   oleg:      { x: 580, y: 300, room: 'analytics' },
   anna:      { x: 760, y: 300, room: 'analytics' },
+  vova:      { x: 670, y: 380, room: 'analytics' },
   analyst:   { x: 670, y: 360, room: 'analytics' },
   personal1: { x: 450, y: 560, room: 'personal' },
 }
@@ -687,7 +688,7 @@ export default function OfficePage() {
                 <span style={{ fontSize: 6, color: '#aaa', fontFamily: '"Press Start 2P", monospace' }}>{selectedAgent.lastTask}</span>
               </div>
             </div>
-            {(selectedAgent.id === 'oleg' || selectedAgent.id === 'anna') && traderStats?.[selectedAgent.id] && (() => {
+            {(selectedAgent.id === 'oleg' || selectedAgent.id === 'anna' || selectedAgent.id === 'vova') && traderStats?.[selectedAgent.id] && (() => {
               const s = traderStats[selectedAgent.id]
               const wr = s.bets_total > 0 ? Math.round(s.bets_won / s.bets_total * 100) : 0
               return (

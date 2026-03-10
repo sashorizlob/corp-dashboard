@@ -40,6 +40,16 @@
     "color": "#ff00cc"
   },
   {
+    "id": "vova",
+    "name": "Вова",
+    "role": "Lag Trader",
+    "department": "analytics",
+    "status": "active",
+    "lastTask": "BTC 5m — WebSocket lag стратегия",
+    "emoji": "⚡",
+    "color": "#00ccff"
+  },
+  {
     "id": "analyst",
     "name": "Аналитик",
     "role": "Data Analyst",
