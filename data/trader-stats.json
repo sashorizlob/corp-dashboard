@@ -5,7 +5,7 @@
     "bets_total": 158,
     "bets_won": 32,
     "bets_lost": 45,
-    "bets_pending": 3,
+    "bets_pending": 1,
     "last_bet": {
       "time": "17:00",
       "side": "Down",
@@ -17,7 +17,7 @@
       "side": "Down",
       "amount": 10.1731
     },
-    "updated_at": "2026-03-10T10:00:20Z"
+    "updated_at": "2026-03-10T10:00:35Z"
   },
   "anna": {
     "balance": 45.75,
@@ -88,22 +88,29 @@
   "vova": {
     "balance": 4.95,
     "pnl": 0.0,
-    "bets_total": 2,
+    "bets_total": 3,
     "bets_won": 0,
     "bets_lost": 0,
-    "bets_pending": 2,
+    "bets_pending": 3,
     "win_rate": 0,
     "last_bet": {
-      "time": "2026-03-10 16:53",
-      "side": "Up",
+      "time": "2026-03-10 17:01",
+      "side": "Down",
       "amount": 5.0,
       "status": "pending",
-      "bn_pct": 0.1201
+      "bn_pct": -0.1202
     },
     "last_win": null,
     "strategy": "ws-lag BN\u22650.12% MAX_ASK=0.75",
-    "updated_at": "2026-03-10T09:53:00.133547Z",
+    "updated_at": "2026-03-10T10:01:35.770988Z",
     "recent": [
+      {
+        "time": "2026-03-10 17:01",
+        "side": "Down",
+        "amount": 5.0,
+        "status": "pending",
+        "bn_pct": -0.1202
+      },
       {
         "time": "2026-03-10 16:53",
         "side": "Up",
