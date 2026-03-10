@@ -20,13 +20,37 @@
     "updated_at": "2026-03-10T09:27:36Z"
   },
   "anna": {
-    "balance": 37.88,
-    "bets_total": 30,
-    "win_rate": 67,
+    "balance": 29.88,
+    "bets_total": 32,
+    "win_rate": 66,
     "pnl": -7.92,
-    "last_update": "2026-03-10T09:28:12.809961Z",
+    "last_update": "2026-03-10T09:30:16.232862Z",
     "strategy": "smart-maker",
     "recent": [
+      {
+        "date": "2026-03-10T09:30:16.231268Z",
+        "cid": "0x2150b7de1e75d49aac0d8771bc67c56dd2b19d054dd1348480eb7db2e400f3eb",
+        "slug": "btc-updown-5m-1773135000",
+        "type": "arb_both",
+        "up_shares": 17.02,
+        "dn_shares": 16.32,
+        "cost": 15.9962,
+        "expected_pnl": 1.0238,
+        "outcome": "arb",
+        "pnl": 0
+      },
+      {
+        "date": "2026-03-10T09:29:05.825787Z",
+        "cid": "0x6d22a7ca37777c7c610c039ce7392d71c2a5b400146f061e82b2258b6da3dc47",
+        "slug": "btc-updown-5m-1773134700",
+        "type": "single_up",
+        "shares": 16.32,
+        "cost": 7.9968,
+        "btc_pct": 0.0505,
+        "confirmed": true,
+        "outcome": "partial",
+        "pnl": 0
+      },
       {
         "date": "2026-03-10T09:20:43.361392Z",
         "cid": "0x1a15f5d43ee9d550573205eac41c829eb64cc7d36bac24a5817ec4878193e3ad",
@@ -38,30 +62,6 @@
         "expected_pnl": 1.0238,
         "outcome": "win",
         "pnl": 18.9279
-      },
-      {
-        "date": "2026-03-10T09:10:55.015432Z",
-        "cid": "0x22ebe057ba734d8e2e0e5e3f56a8012248d6de6996d80313c9ae86f333cd9172",
-        "slug": "btc-updown-5m-1773133800",
-        "type": "arb_both",
-        "up_shares": 16.32,
-        "dn_shares": 18.583678,
-        "cost": 17.1028,
-        "expected_pnl": 1.4809,
-        "outcome": "win",
-        "pnl": 1.4809
-      },
-      {
-        "date": "2026-03-10T09:05:20.264990Z",
-        "cid": "0x44e2d6adb1e7bd6bdb53e9effc1fc8519c33ecc80608c894b06a81daf1f3442c",
-        "slug": "btc-updown-5m-1773133500",
-        "type": "arb_both",
-        "up_shares": 15.235383,
-        "dn_shares": 14.92,
-        "cost": 14.7761,
-        "expected_pnl": 0.4592,
-        "outcome": "win",
-        "pnl": 0.1439
       }
     ]
   },
