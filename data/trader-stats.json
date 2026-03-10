@@ -17,7 +17,7 @@
       "side": "Down",
       "amount": 10.1731
     },
-    "updated_at": "2026-03-10T10:17:10Z"
+    "updated_at": "2026-03-10T10:17:23Z"
   },
   "anna": {
     "balance": 47.07,
@@ -101,7 +101,7 @@
       "bn_pct": -0.1244
     },
     "last_win": null,
-    "strategy": "ws-lag BN\u22650.12% MAX_ASK=0.75",
+    "strategy": "ws-lag BN≥0.12% MAX_ASK=0.75",
     "updated_at": "2026-03-10T10:17:15.816985Z",
     "recent": [
       {
