@@ -20,11 +20,11 @@
     "updated_at": "2026-03-10T07:40:14Z"
   },
   "anna": {
-    "balance": 20.42,
+    "balance": 28.16,
     "bets_total": 11,
     "win_rate": 45,
-    "pnl": 31.05,
-    "last_update": "2026-03-10T07:38:14.682827Z",
+    "pnl": 38.78,
+    "last_update": "2026-03-10T07:43:12.400942Z",
     "strategy": "smart-maker",
     "recent": [
       {
@@ -36,8 +36,8 @@
         "dn_shares": 13.86,
         "cost": 13.7201,
         "expected_pnl": 0.4201,
-        "outcome": "arb",
-        "pnl": 0
+        "outcome": "win",
+        "pnl": 7.7363
       },
       {
         "date": "2026-03-10T07:31:01.033171Z",
