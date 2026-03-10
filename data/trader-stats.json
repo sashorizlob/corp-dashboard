@@ -88,22 +88,29 @@
   "vova": {
     "balance": 4.95,
     "pnl": 0.0,
-    "bets_total": 10,
+    "bets_total": 11,
     "bets_won": 0,
     "bets_lost": 0,
-    "bets_pending": 10,
+    "bets_pending": 11,
     "win_rate": 0,
     "last_bet": {
-      "time": "2026-03-10 18:02",
+      "time": "2026-03-10 18:09",
       "side": "Down",
       "amount": 5.0,
       "status": "pending",
-      "bn_pct": -0.1236
+      "bn_pct": -0.1239
     },
     "last_win": null,
     "strategy": "ws-lag BN\u22650.12% MAX_ASK=0.75",
-    "updated_at": "2026-03-10T11:02:06.977799Z",
+    "updated_at": "2026-03-10T11:09:27.199153Z",
     "recent": [
+      {
+        "time": "2026-03-10 18:09",
+        "side": "Down",
+        "amount": 5.0,
+        "status": "pending",
+        "bn_pct": -0.1239
+      },
       {
         "time": "2026-03-10 18:02",
         "side": "Down",
@@ -131,13 +138,6 @@
         "amount": 5.0,
         "status": "pending",
         "bn_pct": -0.1574
-      },
-      {
-        "time": "2026-03-10 17:30",
-        "side": "Up",
-        "amount": 5.0,
-        "status": "pending",
-        "bn_pct": 0.122
       }
     ]
   }
