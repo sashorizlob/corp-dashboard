@@ -78,12 +78,26 @@
       "side": "Up",
       "amount": 5.0,
       "status": "failed",
-      "bn_pct": 0.1201
+      "bn_pct": 0.1403
     },
     "last_win": null,
-    "strategy": "ws-lag BN≥0.12% MAX_ASK=0.75",
-    "updated_at": "2026-03-10T08:31:07.561601Z",
+    "strategy": "ws-lag BN\u22650.12% MAX_ASK=0.75",
+    "updated_at": "2026-03-10T08:31:13.897958Z",
     "recent": [
+      {
+        "time": "2026-03-10 15:31",
+        "side": "Up",
+        "amount": 5.0,
+        "status": "failed",
+        "bn_pct": 0.1403
+      },
+      {
+        "time": "2026-03-10 15:31",
+        "side": "Up",
+        "amount": 5.0,
+        "status": "failed",
+        "bn_pct": 0.1403
+      },
       {
         "time": "2026-03-10 15:31",
         "side": "Up",
@@ -104,20 +118,6 @@
         "amount": 5.0,
         "status": "failed",
         "bn_pct": -0.1985
-      },
-      {
-        "time": "2026-03-10 15:17",
-        "side": "Down",
-        "amount": 5.0,
-        "status": "failed",
-        "bn_pct": -0.2091
-      },
-      {
-        "time": "2026-03-10 15:17",
-        "side": "Down",
-        "amount": 5.0,
-        "status": "failed",
-        "bn_pct": -0.2041
       }
     ]
   }
