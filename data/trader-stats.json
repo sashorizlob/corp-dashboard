@@ -21,12 +21,36 @@
   },
   "anna": {
     "balance": 30.04,
-    "bets_total": 21,
+    "bets_total": 23,
     "win_rate": 57,
     "pnl": 61.81,
-    "last_update": "2026-03-10T08:38:14.200655Z",
+    "last_update": "2026-03-10T08:41:07.590555Z",
     "strategy": "smart-maker",
     "recent": [
+      {
+        "date": "2026-03-10T08:41:07.589385Z",
+        "cid": "0x1c30bd47dac6de8c6a473743f889f9d7d9d68f21aa53abf03ec7603751c4a03d",
+        "slug": "btc-updown-5m-1773132000",
+        "type": "arb_both",
+        "up_shares": 17.39,
+        "dn_shares": 16.32,
+        "cost": 16.5179,
+        "expected_pnl": 0.8721,
+        "outcome": "arb",
+        "pnl": 0
+      },
+      {
+        "date": "2026-03-10T08:39:05.771144Z",
+        "cid": "0x1074697b19207e59d894180ded362830df09cea1ddf908b323a27a26211f4ab4",
+        "slug": "btc-updown-5m-1773131700",
+        "type": "single_down",
+        "shares": 17.39,
+        "cost": 8.5211,
+        "btc_pct": -0.1145,
+        "confirmed": true,
+        "outcome": "partial",
+        "pnl": 0
+      },
       {
         "date": "2026-03-10T08:34:10.269205Z",
         "cid": "0x2c77395b6343fbbdd1d3cf2e4c2e595a112c6f5496af4a8c9cf9614898eefcdd",
@@ -38,30 +62,6 @@
         "confirmed": false,
         "outcome": "loss",
         "pnl": -8.3398
-      },
-      {
-        "date": "2026-03-10T08:29:04.129449Z",
-        "cid": "0x16f465ed6e4fbbd447eee7a43ecd791ba6070c1c38fc17eeecb3e9480d40f9c3",
-        "slug": "btc-updown-5m-1773131100",
-        "type": "single_up",
-        "shares": 20.0,
-        "cost": 9.8,
-        "btc_pct": -0.0188,
-        "confirmed": false,
-        "outcome": "loss",
-        "pnl": -9.8
-      },
-      {
-        "date": "2026-03-10T08:24:10.416299Z",
-        "cid": "0xa3f12ffa51e6cecc383a41e2110c797412bb24d6d47a0bde336ee42fa3fec20a",
-        "slug": "btc-updown-5m-1773130800",
-        "type": "single_up",
-        "shares": 17.02,
-        "cost": 8.3398,
-        "btc_pct": 0.0834,
-        "confirmed": true,
-        "outcome": "win",
-        "pnl": 8.6802
       }
     ]
   },
