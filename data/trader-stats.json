@@ -20,13 +20,13 @@
     "updated_at": "2026-03-10T11:47:14Z"
   },
   "anna": {
-    "balance": 27.14,
+    "balance": 22.14,
     "pnl": 282.62,
     "bets_total": 117,
     "bets_won": 180,
     "bets_lost": 77,
     "win_rate": 70,
-    "last_update": "2026-03-11T17:30:36.819474Z",
+    "last_update": "2026-03-11T17:33:13.551322Z",
     "strategy": "smart-maker @0.49",
     "recent": [
       {
