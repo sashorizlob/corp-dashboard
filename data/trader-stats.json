@@ -21,14 +21,32 @@
   },
   "anna": {
     "balance": 19.4,
-    "pnl": 267.46,
-    "bets_total": 157,
+    "pnl": 257.47,
+    "bets_total": 158,
     "bets_won": 217,
     "bets_lost": 89,
     "win_rate": 71,
-    "last_update": "2026-03-11T22:53:23.737065Z",
+    "last_update": "2026-03-11T22:55:55.852060Z",
     "strategy": "smart-maker @0.49",
     "recent": [
+      {
+        "side": "arb_both",
+        "amount": 9.9912,
+        "outcome": "arb",
+        "pnl": 0.0,
+        "date": "2026-03-11T22:55:55.849294Z",
+        "btc_pct": 0.0,
+        "secs_left": "?"
+      },
+      {
+        "side": "single_down",
+        "amount": 4.998,
+        "outcome": "partial",
+        "pnl": 0.0,
+        "date": "2026-03-11T22:54:02.081643Z",
+        "btc_pct": 0.0407,
+        "secs_left": "?"
+      },
       {
         "side": "arb_both",
         "amount": 9.9914,
@@ -62,24 +80,6 @@
         "outcome": "loss",
         "pnl": -9.9964,
         "date": "2026-03-11T22:26:30.051386Z",
-        "btc_pct": 0.0,
-        "secs_left": "?"
-      },
-      {
-        "side": "single_up",
-        "amount": 4.9968,
-        "outcome": "loss",
-        "pnl": -4.9968,
-        "date": "2026-03-11T22:19:05.859230Z",
-        "btc_pct": -0.0738,
-        "secs_left": "?"
-      },
-      {
-        "side": "arb_both",
-        "amount": 9.996,
-        "outcome": "win",
-        "pnl": 0.204,
-        "date": "2026-03-11T22:10:21.949003Z",
         "btc_pct": 0.0,
         "secs_left": "?"
       }
