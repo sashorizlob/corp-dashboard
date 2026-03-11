@@ -24,9 +24,9 @@
     "pnl": 158.05,
     "bets_total": 71,
     "bets_won": 111,
-    "bets_lost": 50,
+    "bets_lost": 51,
     "win_rate": 69,
-    "last_update": "2026-03-11T05:19:01.874478Z",
+    "last_update": "2026-03-11T05:19:39.425120Z",
     "strategy": "smart-maker @0.49",
     "recent": [
       {
@@ -68,8 +68,8 @@
       {
         "side": "single_up",
         "amount": 2.499,
-        "outcome": "partial",
-        "pnl": 0.0,
+        "outcome": "loss",
+        "pnl": -2.499,
         "date": "2026-03-10T22:59:11.154966Z",
         "btc_pct": -0.0445,
         "secs_left": "?"
