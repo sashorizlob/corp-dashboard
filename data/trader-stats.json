@@ -94,12 +94,12 @@
     "bets_pending": 0,
     "win_rate": 81,
     "last_bet": {
-      "time": "2026-03-11 07:45",
+      "time": "2026-03-11 07:51",
       "side": "Up",
       "amount": 1.0,
-      "price": 0.5790049751243781,
+      "price": 0.61,
       "status": "failed",
-      "bn_pct": 0.12,
+      "bn_pct": 0.1327,
       "pnl": 0
     },
     "last_win": {
@@ -108,8 +108,17 @@
       "amount": 0.1015
     },
     "strategy": "ws-lag BN\u22650.12% MAX_ASK=0.75",
-    "updated_at": "2026-03-11T00:45:54.633865Z",
+    "updated_at": "2026-03-11T00:51:08.966851Z",
     "recent": [
+      {
+        "time": "2026-03-11 07:51",
+        "side": "Up",
+        "amount": 1.0,
+        "price": 0.61,
+        "status": "failed",
+        "bn_pct": 0.1327,
+        "pnl": 0
+      },
       {
         "time": "2026-03-11 07:45",
         "side": "Up",
@@ -144,15 +153,6 @@
         "price": 0.52,
         "status": "failed",
         "bn_pct": -0.1216,
-        "pnl": 0
-      },
-      {
-        "time": "2026-03-11 07:28",
-        "side": "Up",
-        "amount": 1.0,
-        "price": 0.47,
-        "status": "failed",
-        "bn_pct": 0.1343,
         "pnl": 0
       }
     ]
