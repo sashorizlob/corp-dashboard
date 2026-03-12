@@ -13,7 +13,7 @@
     "snipes_today": 0
   },
   "anna": {
-    "balance": 1.57,
+    "balance": 0.57,
     "pnl": -6.91,
     "bets_total": 32,
     "bets_won": 24,
@@ -29,8 +29,8 @@
       "btc_pct": -0.1468,
       "pnl": 0
     },
-    "strategy": "EarlyWinner @120s BTC\u22650.08% max=0.85 $1",
-    "updated_at": "2026-03-12T14:07:11Z",
+    "strategy": "EarlyWinner @120s BTC\u22650.08% max=0.81 $1",
+    "updated_at": "2026-03-12T14:10:33Z",
     "recent": [
       {
         "time": "2026-03-12 14:07",
