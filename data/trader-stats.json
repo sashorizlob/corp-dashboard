@@ -20,7 +20,7 @@
     "updated_at": "2026-03-10T11:47:14Z"
   },
   "anna": {
-    "balance": 26.03,
+    "balance": 21.02,
     "pnl": 1.32,
     "bets_total": 2,
     "bets_won": 2,
@@ -37,7 +37,7 @@
       "pnl": 0.0155
     },
     "strategy": "Arb+EarlyWinner @120s BTC\u22650.08% max=0.85",
-    "updated_at": "2026-03-12T11:00:08Z",
+    "updated_at": "2026-03-12T11:00:09Z",
     "recent": [
       {
         "time": "2026-03-12 10:52",
