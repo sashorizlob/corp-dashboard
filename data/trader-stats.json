@@ -8,7 +8,7 @@
     "bets_pending": 0,
     "win_rate": 0,
     "strategy": "OrderBook Sniper @120s BTC\u22650.08% max=0.85 $5.0",
-    "updated_at": "2026-03-12T14:15:02Z",
+    "updated_at": "2026-03-12T14:20:02Z",
     "recent": [],
     "snipes_today": 0
   },
@@ -30,7 +30,7 @@
       "pnl": -1.0
     },
     "strategy": "EarlyWinner @120s BTC\u22650.08% max=0.81 $1",
-    "updated_at": "2026-03-12T14:15:10Z",
+    "updated_at": "2026-03-12T14:20:01Z",
     "recent": [
       {
         "time": "2026-03-12 14:07",
@@ -103,7 +103,7 @@
       "amount": 0.0528
     },
     "strategy": "Late Winner Buy @240s BTC\u22650.08%",
-    "updated_at": "2026-03-12T14:15:09Z",
+    "updated_at": "2026-03-12T14:20:00Z",
     "recent": [
       {
         "time": "2026-03-12 14:09",
