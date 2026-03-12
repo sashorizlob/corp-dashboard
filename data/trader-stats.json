@@ -20,18 +20,35 @@
     "updated_at": "2026-03-10T11:47:14Z"
   },
   "anna": {
-    "balance": 12.47,
+    "balance": 10.38,
     "pnl": 0,
-    "bets_total": 0,
+    "bets_total": 1,
     "bets_won": 0,
     "bets_lost": 0,
-    "bets_pending": 0,
+    "bets_pending": 1,
     "win_rate": 0,
-    "last_bet": null,
-    "last_win": null,
+    "last_bet": {
+      "time": "2026-03-12 09:19",
+      "side": "arb_hold",
+      "amount": 2.5,
+      "price": 0,
+      "outcome": "pending",
+      "btc_pct": 0,
+      "pnl": 0
+    },
     "strategy": "Arb+EarlyWinner @120s BTC\u22650.08% max=0.85",
-    "updated_at": "2026-03-12T09:18:17Z",
-    "recent": []
+    "updated_at": "2026-03-12T09:20:01Z",
+    "recent": [
+      {
+        "time": "2026-03-12 09:19",
+        "side": "arb_hold",
+        "amount": 2.5,
+        "price": 0,
+        "outcome": "pending",
+        "btc_pct": 0,
+        "pnl": 0
+      }
+    ]
   },
   "vova": {
     "balance": 127.08,
@@ -48,7 +65,8 @@
       "price": 0.8809950248756219,
       "outcome": "win",
       "btc_pct": -0.0805,
-      "pnl": 6.0776
+      "pnl": 6.0776,
+      "gained": 56.077641
     },
     "last_win": {
       "time": "2026-03-12 09:14",
@@ -56,7 +74,7 @@
       "amount": 6.0776
     },
     "strategy": "Late Winner Buy @240s BTC\u22650.08%",
-    "updated_at": "2026-03-12T09:20:01Z",
+    "updated_at": "2026-03-12T09:22:04Z",
     "recent": [
       {
         "time": "2026-03-12 09:14",
@@ -65,7 +83,8 @@
         "price": 0.8809950248756219,
         "outcome": "win",
         "btc_pct": -0.0805,
-        "pnl": 6.0776
+        "pnl": 6.0776,
+        "gained": 56.077641
       },
       {
         "time": "2026-03-12 09:09",
@@ -74,7 +93,8 @@
         "price": 0.95,
         "outcome": "win",
         "btc_pct": -0.1105,
-        "pnl": 2.0641
+        "pnl": 2.0641,
+        "gained": 52.064135
       },
       {
         "time": "2026-03-12 08:59",
@@ -83,7 +103,8 @@
         "price": 0.7309950248756218,
         "outcome": "loss",
         "btc_pct": -0.0807,
-        "pnl": -50.0
+        "pnl": -50.0,
+        "gained": 0.0
       },
       {
         "time": "2026-03-12 08:39",
@@ -92,7 +113,8 @@
         "price": 0.9609992862241256,
         "outcome": "win",
         "btc_pct": 0.103,
-        "pnl": 1.5428
+        "pnl": 1.5428,
+        "gained": 51.542772
       },
       {
         "time": "2026-03-12 08:24",
@@ -101,7 +123,8 @@
         "price": 0.96,
         "outcome": "win",
         "btc_pct": -0.0974,
-        "pnl": 1.5547
+        "pnl": 1.5547,
+        "gained": 51.554744
       }
     ]
   }
