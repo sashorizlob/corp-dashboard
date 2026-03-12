@@ -89,20 +89,20 @@
   "vova": {
     "balance": 26.13,
     "pnl": -192.74,
-    "bets_total": 35,
+    "bets_total": 36,
     "bets_won": 29,
     "bets_lost": 6,
-    "bets_pending": 0,
+    "bets_pending": 1,
     "win_rate": 83,
     "last_bet": {
-      "time": "2026-03-12 11:54",
+      "time": "2026-03-12 12:04",
       "side": "Down",
-      "amount": 24.33,
-      "price": 0.97,
-      "outcome": "win",
-      "btc_pct": -0.1518,
-      "pnl": 0.5192,
-      "gained": 24.84924
+      "amount": 24.82,
+      "price": 0.89,
+      "outcome": "pending",
+      "btc_pct": -0.1041,
+      "pnl": 0,
+      "gained": 0
     },
     "last_win": {
       "time": "2026-03-12 11:54",
@@ -110,8 +110,18 @@
       "amount": 0.5192
     },
     "strategy": "Late Winner Buy @240s BTC\u22650.08%",
-    "updated_at": "2026-03-12T12:00:01Z",
+    "updated_at": "2026-03-12T12:04:03Z",
     "recent": [
+      {
+        "time": "2026-03-12 12:04",
+        "side": "Down",
+        "amount": 24.82,
+        "price": 0.89,
+        "outcome": "pending",
+        "btc_pct": -0.1041,
+        "pnl": 0,
+        "gained": 0
+      },
       {
         "time": "2026-03-12 11:54",
         "side": "Down",
@@ -151,16 +161,6 @@
         "btc_pct": -0.0806,
         "pnl": -50.0,
         "gained": 0
-      },
-      {
-        "time": "2026-03-12 11:19",
-        "side": "Up",
-        "amount": 50.0,
-        "price": 0.97,
-        "outcome": "win",
-        "btc_pct": 0.1388,
-        "pnl": 1.0155,
-        "gained": 51.01551
       }
     ]
   }
