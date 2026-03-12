@@ -13,25 +13,34 @@
     "snipes_today": 0
   },
   "anna": {
-    "balance": 2.57,
+    "balance": 1.57,
     "pnl": -6.91,
-    "bets_total": 31,
+    "bets_total": 32,
     "bets_won": 24,
     "bets_lost": 6,
-    "bets_pending": 1,
+    "bets_pending": 2,
     "win_rate": 80,
     "last_bet": {
       "time": "2026-03-12 14:07",
       "side": "Down",
       "amount": 1.0,
-      "price": 0.7609996667777408,
+      "price": 0.77,
       "outcome": "pending",
-      "btc_pct": -0.1251,
+      "btc_pct": -0.1468,
       "pnl": 0
     },
     "strategy": "EarlyWinner @120s BTC\u22650.08% max=0.85 $1",
-    "updated_at": "2026-03-12T14:07:04Z",
+    "updated_at": "2026-03-12T14:07:11Z",
     "recent": [
+      {
+        "time": "2026-03-12 14:07",
+        "side": "Down",
+        "amount": 1.0,
+        "price": 0.77,
+        "outcome": "pending",
+        "btc_pct": -0.1468,
+        "pnl": 0
+      },
       {
         "time": "2026-03-12 14:07",
         "side": "Down",
@@ -67,15 +76,6 @@
         "outcome": "win",
         "btc_pct": 0,
         "pnl": 2.5155
-      },
-      {
-        "time": "2026-03-12 13:27",
-        "side": "Up",
-        "amount": 5.0,
-        "price": 0.8009995835068721,
-        "outcome": "win",
-        "btc_pct": 0.0861,
-        "pnl": 1.0715
       }
     ]
   },
