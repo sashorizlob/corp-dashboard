@@ -20,42 +20,42 @@
     "updated_at": "2026-03-10T11:47:14Z"
   },
   "anna": {
-    "balance": 12.13,
-    "pnl": 4.4,
+    "balance": 12.23,
+    "pnl": 1.99,
     "bets_total": 24,
-    "bets_won": 20,
-    "bets_lost": 2,
-    "bets_pending": 2,
-    "win_rate": 91,
+    "bets_won": 21,
+    "bets_lost": 3,
+    "bets_pending": 0,
+    "win_rate": 88,
     "last_bet": {
       "time": "2026-03-12 12:59",
       "side": "arb_hold",
       "amount": 5.0,
       "price": 0,
-      "outcome": "pending",
+      "outcome": "win",
       "btc_pct": 0,
-      "pnl": 0
+      "pnl": 0.09
     },
     "strategy": "Arb+EarlyWinner @120s BTC\u22650.08% max=0.85",
-    "updated_at": "2026-03-12T13:00:13Z",
+    "updated_at": "2026-03-12T13:04:04Z",
     "recent": [
       {
         "time": "2026-03-12 12:59",
         "side": "arb_hold",
         "amount": 5.0,
         "price": 0,
-        "outcome": "pending",
+        "outcome": "win",
         "btc_pct": 0,
-        "pnl": 0
+        "pnl": 0.09
       },
       {
         "time": "2026-03-12 12:54",
         "side": "arb_hold",
         "amount": 2.5,
         "price": 0,
-        "outcome": "pending",
+        "outcome": "loss",
         "btc_pct": 0,
-        "pnl": 0
+        "pnl": -2.5
       },
       {
         "time": "2026-03-12 12:49",
