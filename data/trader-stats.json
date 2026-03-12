@@ -86,7 +86,7 @@
     ]
   },
   "vova": {
-    "balance": 12.79,
+    "balance": 0.64,
     "pnl": -65.49,
     "bets_total": 14,
     "bets_won": 11,
@@ -108,7 +108,7 @@
       "amount": 0.8124
     },
     "strategy": "Late Winner Buy @240s BTC\u22650.08%",
-    "updated_at": "2026-03-12T04:49:36Z",
+    "updated_at": "2026-03-12T04:50:00Z",
     "recent": [
       {
         "time": "2026-03-12 04:49",
