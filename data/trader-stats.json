@@ -20,7 +20,7 @@
     "updated_at": "2026-03-10T11:47:14Z"
   },
   "anna": {
-    "balance": 14.4,
+    "balance": 3.25,
     "pnl": -1.25,
     "bets_total": 11,
     "bets_won": 10,
@@ -37,7 +37,7 @@
       "pnl": 0
     },
     "strategy": "Arb+EarlyWinner @120s BTC\u22650.08% max=0.85",
-    "updated_at": "2026-03-12T11:45:41Z",
+    "updated_at": "2026-03-12T11:45:43Z",
     "recent": [
       {
         "time": "2026-03-12 11:42",
@@ -89,20 +89,20 @@
   "vova": {
     "balance": 24.88,
     "pnl": -193.98,
-    "bets_total": 33,
+    "bets_total": 34,
     "bets_won": 27,
     "bets_lost": 6,
-    "bets_pending": 0,
+    "bets_pending": 1,
     "win_rate": 82,
     "last_bet": {
-      "time": "2026-03-12 11:39",
-      "side": "Up",
-      "amount": 23.19,
-      "price": 0.97,
-      "outcome": "win",
-      "btc_pct": 0.1306,
-      "pnl": 0.471,
-      "gained": 23.66098
+      "time": "2026-03-12 11:49",
+      "side": "Down",
+      "amount": 23.64,
+      "price": 0.9509996775233795,
+      "outcome": "pending",
+      "btc_pct": -0.1057,
+      "pnl": 0,
+      "gained": 0
     },
     "last_win": {
       "time": "2026-03-12 11:39",
@@ -110,8 +110,18 @@
       "amount": 0.471
     },
     "strategy": "Late Winner Buy @240s BTC\u22650.08%",
-    "updated_at": "2026-03-12T11:45:00Z",
+    "updated_at": "2026-03-12T11:49:04Z",
     "recent": [
+      {
+        "time": "2026-03-12 11:49",
+        "side": "Down",
+        "amount": 23.64,
+        "price": 0.9509996775233795,
+        "outcome": "pending",
+        "btc_pct": -0.1057,
+        "pnl": 0,
+        "gained": 0
+      },
       {
         "time": "2026-03-12 11:39",
         "side": "Up",
@@ -151,16 +161,6 @@
         "btc_pct": -0.1058,
         "pnl": 2.0641,
         "gained": 52.064132
-      },
-      {
-        "time": "2026-03-12 11:04",
-        "side": "Up",
-        "amount": 50.0,
-        "price": 0.93,
-        "outcome": "win",
-        "btc_pct": 0.0804,
-        "pnl": 3.7242,
-        "gained": 53.72419
       }
     ]
   }
