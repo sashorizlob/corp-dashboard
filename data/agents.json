@@ -25,7 +25,7 @@
     "role": "Order Book Sniper",
     "department": "analytics",
     "status": "active",
-    "lastTask": "BTC 5m — thin-book sniper @120s",
+    "lastTask": "BTC 5m — обнаружение thin-book аномалий",
     "emoji": "🎯",
     "color": "#ff6600"
   },
