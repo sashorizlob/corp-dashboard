@@ -22,31 +22,31 @@
   {
     "id": "oleg",
     "name": "Олег",
-    "role": "Momentum Trader",
+    "role": "Order Book Sniper",
     "department": "analytics",
     "status": "active",
-    "lastTask": "BTC 5m — momentum стратегия",
-    "emoji": "📈",
+    "lastTask": "BTC 5m — thin-book sniper @120s",
+    "emoji": "🎯",
     "color": "#ff6600"
   },
   {
     "id": "anna",
     "name": "Анна",
-    "role": "Arbitrage Trader",
+    "role": "Early Winner",
     "department": "analytics",
     "status": "active",
-    "lastTask": "BTC 5m — арбитраж Up+Down",
-    "emoji": "⚖️",
+    "lastTask": "BTC 5m — early buy @120s max=0.81",
+    "emoji": "⚡",
     "color": "#ff00cc"
   },
   {
     "id": "vova",
     "name": "Вова",
-    "role": "Lag Trader",
+    "role": "Tiered Buyer",
     "department": "analytics",
     "status": "active",
-    "lastTask": "BTC 5m — WebSocket lag стратегия",
-    "emoji": "⚡",
+    "lastTask": "BTC 5m — tiered multi-buy @240s",
+    "emoji": "📊",
     "color": "#00ccff"
   },
   {
