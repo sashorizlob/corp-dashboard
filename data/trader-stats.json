@@ -1,23 +1,16 @@
 {
   "oleg": {
-    "balance": 0.8263,
-    "pnl": -114.1178,
-    "bets_total": 168,
-    "bets_won": 33,
-    "bets_lost": 48,
+    "name": "\u041e\u043b\u0435\u0433 Sniper",
+    "balance": 0.83,
+    "total_pnl": 0,
+    "bets_won": 0,
+    "bets_lost": 0,
     "bets_pending": 0,
-    "last_bet": {
-      "time": "18:36",
-      "side": "Up",
-      "amount": 5.0,
-      "status": "loss"
-    },
-    "last_win": {
-      "time": "17:43",
-      "side": "Up",
-      "amount": 9.434000000000001
-    },
-    "updated_at": "2026-03-10T11:47:14Z"
+    "win_rate": 0,
+    "strategy": "OrderBook Sniper @120s BTC\u22650.08% max=0.85 $5.0",
+    "updated_at": "2026-03-12T14:06:57Z",
+    "recent": [],
+    "snipes_today": 0
   },
   "anna": {
     "balance": 2.57,
