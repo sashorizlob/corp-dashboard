@@ -29,11 +29,11 @@
     "win_rate": 0,
     "last_bet": null,
     "strategy": "Arb+EarlyWinner @120s BTC\u22650.08% max=0.85",
-    "updated_at": "2026-03-12T09:05:01Z",
+    "updated_at": "2026-03-12T09:10:01Z",
     "recent": []
   },
   "vova": {
-    "balance": 128.94,
+    "balance": 78.94,
     "pnl": -119.92,
     "bets_total": 21,
     "bets_won": 16,
@@ -55,7 +55,7 @@
       "amount": 1.5428
     },
     "strategy": "Late Winner Buy @240s BTC\u22650.08%",
-    "updated_at": "2026-03-12T09:09:03Z",
+    "updated_at": "2026-03-12T09:10:01Z",
     "recent": [
       {
         "time": "2026-03-12 09:09",
